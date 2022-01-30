@@ -2,7 +2,6 @@
 ## Project: Jovialand
 <img src="logo.png" width="100" alt="project_logo"/>
 
-< Replace the logo above with Your Project Logo >
 ## Team: Berrisa
 ## Members
 -  CHENG Guo  (Leader)
@@ -24,6 +23,7 @@ Regards future development, we may expand our focus to more child mental disorde
 
 ## 3 Most Impactful Features of the Project (with Screenshot and Short Description (150 words))
 1. State-of-the-art machine learning techinques for early and accurate autism detection; Profile system to provide timely feedback to parents about children's mental health and monitor their conditions.
+<img src="acc.png" width="200" alt="acc"/>
 
 2. Information sharing platform to inform public of latest development and technical breakthrough in autism treatment; Online forum for autism parents to share their life stories with their children and ask for help.
 
