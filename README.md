@@ -22,14 +22,28 @@ For the treatment stage of autism, Jovialand connects parents with experts in ch
 Regards future development, we may expand our focus to more child mental disorders like, depression, ADHD, etc. The Jovialand platform’s ultimate goal is to build a caring hub for children’s mental health with advanced BioTech.
 
 ## 3 Most Impactful Features of the Project (with Screenshot and Short Description (150 words))
-1. State-of-the-art machine learning techinques for early and accurate autism detection; Profile system to provide timely feedback to parents about children's mental health and monitor their conditions.
-<img src="acc.png" width="400" alt="acc"/>
+1): State-of-the-art machine learning techinques for early and accurate autism detection; Profile system to provide timely feedback to parents about children's mental health and monitor their conditions.
+
+_Model Training Result_ <br />
+<img src="acc.png" width="300" alt="acc"/>
+
+_Profile System_ <br />
 <img src="profile.png" width="600" alt="profile"/>
-2. Information sharing platform to inform public of latest development and technical breakthrough in autism treatment; Online forum for autism parents to share their life stories with their children and ask for help.
+
+2): Information sharing platform to inform public of latest development and technical breakthrough in autism treatment; Online forum for autism parents to share their life stories with their children and ask for help.
+
+_Latest Research_ <br />
 <img src="news.png" width="600" alt="news"/>
+
+_Jovialand Forum_ <br />
 <img src="forum.png" width="600" alt="forum"/>
-3. Sophisticated and high-tech treatment services for autism children by connecting parents with experts in child autism and collaborating with AI companies to help with child autism treatment.
+
+3): Sophisticated and high-tech treatment services for autism children by connecting parents with experts in child autism and collaborating with AI companies to help with child autism treatment.
+
+_Doctors_ <br />
 <img src="doctors.png" width="600" alt="doctors"/>
+
+_Treatment Services_ <br />
 <img src="service.png" width="600" alt="service"/>
 
 ## Tech used (as many as required)
