@@ -1,0 +1,21 @@
+#robots{
+    margin:auto;
+    text-align: center;
+}
+#robots h1{
+    font-family:"Times New Roman", Times, serif;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+#robot_video{
+    width:70%; 
+    overflow:visible;
+}
+span{
+    font-size: larger;
+    color:rgb(94, 92, 92);
+}
+h3{
+    text-align: center;
+    color:darkgrey;
+}

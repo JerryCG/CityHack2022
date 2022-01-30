@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid grid-cols-1 mx-80 mt-24 space-y-6">
+        <h1 class="mb-5 text-5xl font-bold">
+            Create a profile
+        </h1>
+        <div class="grid grid-cols-2 space-x-8">
+            <div class="form-control">
+                <label class="label">
+                    <span class="label-text">Full name</span>
+                </label>
+                <input type="text" placeholder="" name="personal_name" class="input input-bordered">
+            </div>
+            <div class="form-control">
+                <label class="label">
+                    <span class="label-text">Birthday</span>
+                </label>
+                <input type="text" placeholder="DD-MM-YYYY" name="personal_age" class="input input-bordered">
+            </div>
+        </div>
+        <div class="grid grid-cols-2 space-x-8">
+            <div>
+                <label class="label">
+                    <span class="label-text">Gender</span>
+                </label>
+                <div class="grid grid-cols-2">
+                    <div class="form-control mr-24">
+                        <label class="cursor-pointer label">
+                            <span class="label-text">M</span>
+                            <input type="radio" name="gender" class="radio" value="m">
+                        </label>
+                    </div>
+                    <div class="form-control mr-24">
+                        <label class="cursor-pointer label">
+                            <span class="label-text">F</span>
+                            <input type="radio" name="gender" class="radio" value="f">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label class="label">
+                    <span class="label-text">Country/Region</span>
+                </label>
+                <select name="country" class="select select-bordered w-full">
+                    <option disabled="disabled" selected="selected">(Choose one)</option>
+                    <option value="86">China (Mainland)</option>
+                    <option value="852">Hong Kong SAR</option>
+                </select>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 space-x-8">
+            <div>
+                <label class="label">
+                    <span class="label-text">Has the child previously had jaundice?</span>
+                </label>
+                <div class="grid grid-cols-2">
+                    <div class="form-control mr-24">
+                        <label class="cursor-pointer label">
+                            <span class="label-text">Yes</span>
+                            <input type="radio" name="jundice" class="radio" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-control mr-24">
+                        <label class="cursor-pointer label">
+                            <span class="label-text">No</span>
+                            <input type="radio" name="jundice" class="radio" value="no">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <label class="label">
+                    <span class="label-text">Ethnicity</span>
+                </label>
+                <input type="text" placeholder="" class="input input-bordered">
+            </div>
+        </div>
+        <div class="grid grid-cols-2 space-x-8">
+            <div>
+                <label class="label">
+                    <span class="label-text">Have you used our app before?</span>
+                </label>
+                <div class="grid grid-cols-2">
+                    <div class="form-control mr-24">
+                        <label class="cursor-pointer label">
+                            <span class="label-text">Yes</span>
+                            <input type="radio" name="is_used" class="radio" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-control mr-24">
+                        <label class="cursor-pointer label">
+                            <span class="label-text">No</span>
+                            <input type="radio" name="is_used" class="radio" value="no">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label class="label">
+                    <span class="label-text">Relation</span>
+                </label>
+                <select name="relation" class="select select-bordered w-full">
+                    <option disabled="disabled" selected="selected">(Choose one)</option>
+                    <option value="father">Father</option>
+                    <option value="mother">Mother</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
+        <a href="profile.html"><button class="btn btn-accent">Submit</button></a>
+</body>
+
+</html>
