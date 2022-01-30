@@ -1,6 +1,6 @@
 # CityHack22 Project Submission
 ## Project: < Your CityHack22 Project Name >
-<img src="logo.png" width="200" alt="project_logo"/>
+<img src="logo.png" width="100" alt="project_logo"/>
 
 < Replace the logo above with Your Project Logo >
 ## Team: < Your Team Name >
